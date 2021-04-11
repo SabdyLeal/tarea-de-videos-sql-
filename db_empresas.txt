@@ -5,9 +5,8 @@ int q_estado;
 using namespace std;
 int main()
 {
-    MYSQL* conectar;
-    conectar = mysql_init(0);
-    conectar = mysql_real_connect(conectar,"localhost","root", "42895097", "db_empresa", 3306, NULL,0 );
+   MYSQL= conectar;
+conectar = mysql_real_connect(conectar,"localhost","root", "aqui pon la contrseña de tu sqb", "db_empresa", 3306, NULL,0 );
     if (conectar) {
         string puesto;
         cout<<"Ingresar puesto:" <<endl;
